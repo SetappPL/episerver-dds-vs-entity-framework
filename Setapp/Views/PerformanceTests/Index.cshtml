@@ -1,0 +1,35 @@
+﻿@model Setapp.Models.PerformanceTestsResults
+
+<h1>Tests results</h1>
+
+<div>
+    <h2>Filling data</h2>
+    <ul>
+        <li>Entity Framwork avarage time: @Model.FillingData.EntityFrameworkExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.FillingData.CustomTableExecutionTime ms</li>
+    </ul>
+    
+    <h2>Retriving data by indexed column</h2>
+    <ul>
+        <li>Entity Framwork avarage time: @Model.RetrievingDataByIndexColumn.EntityFrameworkExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.RetrievingDataByIndexColumn.CustomTableExecutionTime ms</li>
+    </ul>
+    
+    <h2>Retriving data by unindexed column</h2>
+    <ul>
+        <li>Entity Framwork avarage time: @Model.RetrievingDataByUnindexColumn.EntityFrameworkExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.RetrievingDataByUnindexColumn.CustomTableExecutionTime ms</li>
+    </ul>
+
+    <h2>Retriving multiple objects by unindexed column</h2>
+    <ul>
+        <li>Entity Framwork avarage time: @Model.RetrievingMultipleObjectsByUnindexColumn.EntityFrameworkExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.RetrievingMultipleObjectsByUnindexColumn.CustomTableExecutionTime ms</li>
+    </ul>
+
+    <h2>Retriving count by unindexed column</h2>
+    <ul>
+        <li>Entity Framwork avarage time: @Model.RetrievingCountByUnindexedValue.EntityFrameworkExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.RetrievingCountByUnindexedValue.CustomTableExecutionTime ms</li>
+    </ul>
+</div>
