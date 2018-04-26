@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setapp", "Setapp\Setapp.csproj", "{5B4B98F8-6BC0-4BE7-9415-E7F4AE3FBE30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{1ACC7076-5F87-4110-BE82-CAAB70816ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{5B4B98F8-6BC0-4BE7-9415-E7F4AE3FBE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B4B98F8-6BC0-4BE7-9415-E7F4AE3FBE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B4B98F8-6BC0-4BE7-9415-E7F4AE3FBE30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACC7076-5F87-4110-BE82-CAAB70816ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACC7076-5F87-4110-BE82-CAAB70816ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACC7076-5F87-4110-BE82-CAAB70816ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACC7076-5F87-4110-BE82-CAAB70816ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC1BD5F1-B7BF-41DB-9614-85CC7E85C596}
 	EndGlobalSection
 EndGlobal
